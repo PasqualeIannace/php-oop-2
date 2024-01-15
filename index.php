@@ -1,3 +1,7 @@
+<?php
+require __DIR__ . "./data.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +15,24 @@
 <body>
     <div class="container">
         <h1>Pet Store</h1>
+
+        <div class="row">
+            <?php foreach ($products as $prodotto) { ?>
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <?= $prodotto->name ?>
+                            </div>
+                            <div class="card-subtitle">
+                                <?= $prodotto->genre ?>
+                                <p><?= $prodotto->price ?></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
     </div>
 </body>
 
