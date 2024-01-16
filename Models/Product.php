@@ -1,5 +1,6 @@
 <?php
 require __DIR__ . "./Food.php";
+require __DIR__ . "./Cuccia.php";
 
 class Product
 {
