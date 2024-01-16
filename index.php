@@ -21,11 +21,14 @@ require __DIR__ . "./data.php";
                 <div class="col-3">
                     <div class="card">
                         <div class="card-body">
+                            <img class="card-img-top" src="<?= $prodotto->image ?>" alt="Card image cap">
                             <div class="card-title">
                                 <?= $prodotto->name ?>
                             </div>
                             <div class="card-subtitle">
                                 <?= $prodotto->genre ?>
+                                <p><?= (isset($prodotto->weight)) ? "(" . $prodotto->weight . ")" : "" ?></p>
+                                <p><?= (isset($prodotto->expire)) ? "(" . $prodotto->expire . ")" : "" ?></p>
                                 <p><?= $prodotto->price ?></p>
                             </div>
                         </div>

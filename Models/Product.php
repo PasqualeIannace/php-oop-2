@@ -10,10 +10,11 @@ class Product
     public $price;
     public $review;
 
-    public function __construct($genre, $name, $price)
+    public function __construct($genre, $name, $image, $price)
     {
         $this->genre = $genre;
         $this->name = $name;
         $this->price = $price;
+        $this->image = $image;
     }
 }
