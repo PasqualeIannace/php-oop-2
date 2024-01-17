@@ -39,7 +39,39 @@ require __DIR__ . "./data.php";
             <?php } ?>
         </div>
         <div class="row">
-
+            <h2>Continua il tuo acquisto</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Oggetto</th>
+                        <th scope="col">Costo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td><?= $products[0]->name ?></td>
+                        <td><?= $products[0]->price ?></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td><?= $products[1]->name ?></td>
+                        <td><?= $products[1]->price ?></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td><?= $products[2]->name ?></td>
+                        <td><?= $products[2]->price ?></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Totale</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button>$ Paga $</button>
         </div>
     </div>
 </body>

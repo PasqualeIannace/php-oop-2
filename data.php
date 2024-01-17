@@ -45,3 +45,5 @@ $users = [
         "password123"
     )
 ];
+
+$basket = [];
