@@ -1,5 +1,6 @@
 <?php
 require __DIR__ . "./Models/Product.php";
+require __DIR__ . "./Models/Guest.php";
 
 $products = [
     new Product(
@@ -33,5 +34,14 @@ $products = [
         "99,00$",
         "Legno, Plastica",
         "67X53X55.5CM"
+    )
+];
+
+$users = [
+    new User(
+        "Pasquale Iannace",
+        "pasquale@mail.it",
+        "Via Napoli 1, Montesarchio (BN)",
+        "password123"
     )
 ];
