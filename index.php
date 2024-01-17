@@ -26,12 +26,10 @@ require __DIR__ . "./data.php";
                                 <h4><?= $prodotto->name ?></h4>
                             </div>
                             <div class="card-subtitle">
-                                <h6><?= $prodotto->genre ?></h6>
-                                <p><?= (isset($prodotto->weight)) ? "Peso: (" . $prodotto->weight . ")" : "" ?></p>
-                                <p><?= (isset($prodotto->expire)) ? "Scadenza: " . $prodotto->expire : "" ?></p>
-                                <p><?= (isset($prodotto->materials)) ? "Materiali: (" . $prodotto->materials . ")" : "" ?></p>
-                                <p><?= (isset($prodotto->size)) ? "(" . $prodotto->size . ")" : "" ?></p>
-                                <p class="text-right font-weight-bold"><?= $prodotto->price ?></p>
+                                <?= $prodotto->genre ?>
+                                <p><?= (isset($prodotto->weight)) ? "(" . $prodotto->weight . ")" : "" ?></p>
+                                <p><?= (isset($prodotto->expire)) ? "(" . $prodotto->expire . ")" : "" ?></p>
+                                <p><?= $prodotto->price ?></p>
                             </div>
                         </div>
                     </div>

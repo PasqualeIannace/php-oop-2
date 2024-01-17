@@ -37,13 +37,5 @@ $products = [
     )
 ];
 
-$users = [
-    new User(
-        "Pasquale Iannace",
-        "pasquale@mail.it",
-        "Via Napoli 1, Montesarchio (BN)",
-        "password123"
-    )
-];
-
-$basket = [];
+$products[1]->weight = "400gr";
+$products[1]->expire = "01-2025";
