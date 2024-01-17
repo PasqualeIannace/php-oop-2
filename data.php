@@ -13,23 +13,25 @@ $products = [
         "Gatto",
         "Crochette al salmone",
         "https://arcaplanet.vtexassets.com/arquivos/ids/252462/10066388_1.jpg?v=637466425029400000",
-        "4,93$"
+        "4,93$",
+        "400gr",
+        "01-2025"
     ),
 
-    new Product(
+    new Games(
         "Cane",
         "Osso giocattolo",
         "https://arcaplanet.vtexassets.com/arquivos/ids/288355/fullimage_n_pss_000000000000058938_de.jpg?v=638245816969800000",
-        "5,99$"
+        "5,99$",
+        "Plastica"
     ),
 
-    new Product(
+    new Cuccia(
         "Cane",
         "Casetta in legno",
         "https://arcaplanet.vtexassets.com/arquivos/ids/216810/https---www.arcaplanet.it-media-catalog-product--b-a-baita-ferc14_1.jpg?v=637454582539930000",
-        "99,00$"
+        "99,00$",
+        "Legno, Plastica",
+        "67X53X55.5CM"
     )
 ];
-
-$products[1]->weight = "400gr";
-$products[1]->expire = "01-2025";
