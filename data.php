@@ -18,7 +18,7 @@ $products = [
         "01-2025"
     ),
 
-    new Games(
+    new Toy(
         "Cane",
         "Osso giocattolo",
         "https://arcaplanet.vtexassets.com/arquivos/ids/288355/fullimage_n_pss_000000000000058938_de.jpg?v=638245816969800000",
